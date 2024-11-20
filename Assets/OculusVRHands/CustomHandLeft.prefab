@@ -2029,7 +2029,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 7207938109221989735, guid: 4a966b4343b64a04b832103e7a7bea80,
+    m_Reference: {fileID: 1885434411666265677, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   triggerAction:
     m_UseReference: 1
@@ -2042,7 +2042,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -3345412507119511582, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: -2801613050215525591, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   indexAction:
     m_UseReference: 1
@@ -2055,7 +2055,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 447714702165060157, guid: 4a966b4343b64a04b832103e7a7bea80,
+    m_Reference: {fileID: 2045646047927797927, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   thumbAction:
     m_UseReference: 1
@@ -2384,7 +2384,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3637b758ff163493f8bb8b6d7e96d7ae, type: 2}
+  - {fileID: 2100000, guid: 9c0c9f07e9ab66442815a77abc34a9e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
