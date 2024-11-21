@@ -2029,7 +2029,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 1885434411666265677, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: -8197209930004362900, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   triggerAction:
     m_UseReference: 1
@@ -2042,7 +2042,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -2801613050215525591, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: 1779459867523333631, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   indexAction:
     m_UseReference: 1
@@ -2055,7 +2055,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 2045646047927797927, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: 5217603600419674154, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   thumbAction:
     m_UseReference: 1
@@ -2068,7 +2068,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -8558009740564142555, guid: c348712bda248c246b8c49b3db54643f,
+    m_Reference: {fileID: 7139371076198748611, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   animator: {fileID: 95022414942611548}
   speed: 4
