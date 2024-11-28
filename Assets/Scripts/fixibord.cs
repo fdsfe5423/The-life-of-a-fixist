@@ -22,13 +22,17 @@ public class fixibord : MonoBehaviour
         player = GameObject.Find("Move");
         move = player.GetComponent<ContinuousMoveProviderBase>();
         point = GameObject.Find("PointFixi");
-        float Drop = acrionDropFIXI.action.ReadValue<float>();
-            if(Drop > 0.8)
-            {
-                iFixiboard = false;
-                iFIXI = false;
-                Invoke("FIXI", 1);
-            }
+        bool Drop = acrionDropFIXI.action.IsPressed();
+        if (Drop)
+        {
+            iFixiboard = false;
+            iFIXI = false;
+            Invoke("FIXI", 3);
+            print("Drop press");
+            move.enableFly = false;
+            move.moveSpeed = 2;
+        }
+
         if(iFixiboard)
         {
             gameObject.transform.position = point.transform.position;
@@ -41,8 +45,7 @@ public class fixibord : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.GetComponent<CharacterController>() != null && !iFixiboard && iFIXI)
-        {
-            
+        {        
             iFixiboard = true;
             move.moveSpeed *= 3;
         }

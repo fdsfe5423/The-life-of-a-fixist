@@ -77933,10 +77933,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iFixiboard: 0
+  iFIXI: 1
   point: {fileID: 0}
   player: {fileID: 0}
   move: {fileID: 0}
   camera: {fileID: 0}
+  acrionDropFIXI:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Acrion Drop FIXI
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 421ca5e4-0c31-43ea-a77e-634949951902
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -8655948634488917872, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!114 &1596247994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77954,7 +77968,7 @@ MonoBehaviour:
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
-  m_GravityApplicationMode: 0
+  m_GravityApplicationMode: 1
   m_ForwardSource: {fileID: 0}
   m_LeftHandMoveAction:
     m_UseReference: 1
@@ -78221,6 +78235,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9168142743249570444, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+    - {fileID: 2728902658200667494, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+    - {fileID: 6321641679068453239, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7169631891049266947, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
     - {fileID: 5481383991568480619, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
