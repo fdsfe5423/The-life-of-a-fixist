@@ -121,6 +121,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "PrimRigth",
+                    "type": "Button",
+                    "id": "6d77aa15-7fd2-4852-bbd0-2512ed1d3c7b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -407,6 +416,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Secondary Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d0a14cd-b5ed-4072-b584-98c2ae4d8c1c",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimRigth",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
