@@ -2444,7 +2444,7 @@ MonoBehaviour:
     m_Reference: {fileID: -536644616327290305, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   animator: {fileID: 95024934887329368}
-  speed: 4
+  speed: 12
 --- !u!1 &1780641922234594
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,25 +1,20 @@
 using UnityEngine.InputSystem;
 using UnityEngine;
 using JetBrains.Annotations;
+using System.Collections;
+using Unity.VisualScripting;
 
 public class OpenAndSlose : MonoBehaviour
 {
     public GameObject UI;
     public bool isOpen;
+    public bool iCAn;
     public InputActionProperty action;
 
     private void Update()
     {
-        float iNT = action.action.ReadValue<float>();
-        if(isOpen)
-        {
-            UI.SetActive(true);
-        }
-        else
-        {
-            UI.SetActive(false);
-        }
-        if(iNT > 0.7)
+        bool iNT = action.action.IsPressed();
+        if (iNT && iCAn)
         {
             if (isOpen)
             {
@@ -30,23 +25,14 @@ public class OpenAndSlose : MonoBehaviour
             {
                 UI.SetActive(false);
                 isOpen = true;
+
             }
+            Invoke("CD", 1f);
+            iCAn = false;
         }
     }
-
-    private void OnTriggerEnter(Collider other)
+    public void CD()
     {
-      if(other.gameObject.tag == "Hand")
-        {
-            isOpen = true;
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Hand")
-        {
-            isOpen = true;
-        }
+       iCAn=true;
     }
 }
