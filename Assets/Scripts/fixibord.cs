@@ -5,16 +5,21 @@ using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.InputSystem;
+using JetBrains.Annotations;
 
 public class fixibord : MonoBehaviour
 {
     public bool iFixiboard;
     public bool iFIXI;
+    public bool spawnFixi;
     public GameObject point;
+    public GameObject zhopaMira;
+    public GameObject spawnPoint;
     public GameObject player;
     public ContinuousMoveProviderBase move;
     public GameObject camera;
     public InputActionProperty acrionDropFIXI;
+    public InputActionProperty acrionCallFixi;
 
     private void Update()
     {
@@ -23,6 +28,7 @@ public class fixibord : MonoBehaviour
         move = player.GetComponent<ContinuousMoveProviderBase>();
         point = GameObject.Find("PointFixi");
         bool Drop = acrionDropFIXI.action.IsPressed();
+        bool Alyo = acrionCallFixi.action.IsPressed();
         if (Drop)
         {
             iFixiboard = false;
@@ -31,6 +37,20 @@ public class fixibord : MonoBehaviour
             print("Drop press");
             move.enableFly = false;
             move.moveSpeed = 2;
+        }
+        if (Alyo)
+        {
+            if (iFixiboard == false)
+            {
+                if (spawnFixi == false)
+                {
+                    iFIXI = true;
+                    iFixiboard = false;
+                    gameObject.transform.position = spawnPoint.transform.position;
+                    Quaternion gameobjRot = gameObject.transform.rotation;
+                    gameObject.transform.localEulerAngles = new Vector3(0, camera.transform.localEulerAngles.y - 90, 0);
+                }
+            }
         }
 
         if(iFixiboard)
@@ -53,5 +73,9 @@ public class fixibord : MonoBehaviour
     public void FIXI()
     {
         iFIXI = true;
+    }
+    public void spawnfixi()
+    {
+        spawnFixi = false;
     }
 }
