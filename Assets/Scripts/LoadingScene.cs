@@ -7,7 +7,7 @@ public class LoadingScene : MonoBehaviour
 {
     public void LoadLoadingScene()
     {
-        SceneManager.LoadScene("Zagryzka");
+        SceneManager.LoadScene(3);
         DontDestroyOnLoad(this.gameObject);
     }
 }
