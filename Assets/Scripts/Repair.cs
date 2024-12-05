@@ -29,4 +29,11 @@ public class Repair : MonoBehaviour
         count++;
         }
     }
+    public void REPAirActivate()
+    {
+        if (count < maxCount)
+        {
+            count++;
+        }
+    }
 }
