@@ -6,9 +6,16 @@ public class RepairManager : MonoBehaviour
 {
     public List<Repair> objRep = new List<Repair>();
     public bool SceneComplete;
+    [SerializeField] private string sceneName;
 
     private void Update()
     {
+        if(SceneComplete)
+        {
+            print("ff");
+            PlayerPrefs.SetInt(sceneName, 1);
+            PlayerPrefs.Save();
+        }
         SceneComplete = true;
         for (int i = 0; i < objRep.Count; i++)
         {
