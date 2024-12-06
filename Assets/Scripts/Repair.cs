@@ -12,8 +12,6 @@ public class Repair : MonoBehaviour
     public TextMeshProUGUI text;
     public AudioSource audio;
 
-    [SerializeField] private string sceneName;
-
     private void Start()
     {
         random = Random.Range(1, 4);
@@ -36,8 +34,6 @@ public class Repair : MonoBehaviour
         {
             iReapir = true;
             voskliclSnak.SetActive(false);
-            PlayerPrefs.SetInt(sceneName, 1);
-            PlayerPrefs.Save();
         }
     }
 
