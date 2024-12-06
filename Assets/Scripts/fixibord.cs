@@ -16,6 +16,7 @@ public class fixibord : MonoBehaviour
     public GameObject zhopaMira;
     public GameObject spawnPoint;
     public GameObject player;
+    public GameObject playerOrig;
     public ContinuousMoveProviderBase move;
     public GameObject camera;
     public InputActionProperty acrionDropFIXI;
@@ -23,6 +24,7 @@ public class fixibord : MonoBehaviour
 
     private void Update()
     {
+        playerOrig = GameObject.Find("PlayerOrig");
         camera = GameObject.Find("Main Camera");
         player = GameObject.Find("Move");
         move = player.GetComponent<ContinuousMoveProviderBase>();
@@ -57,7 +59,7 @@ public class fixibord : MonoBehaviour
         {
             gameObject.transform.position = point.transform.position;
             Quaternion gameobjRot = gameObject.transform.localRotation;
-            gameObject.transform.localEulerAngles = new Vector3(0, camera.transform.localEulerAngles.y, 0);
+            gameObject.transform.localEulerAngles = new Vector3(0, camera.transform.localEulerAngles.y + playerOrig.transform.localEulerAngles.y, 0);
             move.enableFly = true;
         }
     }
