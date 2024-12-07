@@ -12,7 +12,6 @@ public class RepairManager : MonoBehaviour
     {
         if(SceneComplete)
         {
-            print("ff");
             PlayerPrefs.SetInt(sceneName, 1);
             PlayerPrefs.Save();
         }
