@@ -5908,7 +5908,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agent: {fileID: 280411736}
+  myTarget: {fileID: 0}
   player: {fileID: 0}
+  trigger: 0
+  ray: 0
+  iCan: 0
+  iCanInvoke: 0
+  iCanCan: 0
+  distanceToPLayer: 0
+  distanceTarget: 0
+  timer: 0
+  point: []
 --- !u!195 &280411736
 NavMeshAgent:
   m_ObjectHideFlags: 0

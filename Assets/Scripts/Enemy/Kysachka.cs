@@ -58,7 +58,7 @@ public class Kysachka : MonoBehaviour
             {
                 if(iCanInvoke)
                 {
-                Invoke("ICanTrue", 3f);
+                Invoke("ICanTrue", Random.Range(1.0f, 5.0f));
                 iCanInvoke = false;
                 }
             }
