@@ -8,7 +8,6 @@ public class Repair : MonoBehaviour
     public int maxCount;
     public int random;
     public bool iReapir;
-    public GameObject voskliclSnak;
     public TextMeshProUGUI text;
     public AudioSource audio;
 
@@ -29,11 +28,10 @@ public class Repair : MonoBehaviour
 
     private void Update()
     {
-        text.text = count.ToString() + "/" + maxCount.ToString();
+        text.text = "Целостность: " + count.ToString() + "/" + maxCount.ToString();
         if(count == maxCount)
         {
             iReapir = true;
-            voskliclSnak.SetActive(false);
         }
     }
 

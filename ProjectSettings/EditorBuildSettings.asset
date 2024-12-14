@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KirillI 2.unity
     guid: 0292c4df8c4271847a4311e06f4dadd8
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/PC.unity
+    guid: 4d198427791f14648a609122ba902af4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e0766dbb8fbd84845a278eb920d0aa6d,
       type: 2}
