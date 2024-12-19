@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &5758611777467055188
+--- !u!1001 &5285200978088793746
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,37 +11,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.024439916
+      value: 0.025843719
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.024439916
+      value: 0.025843719
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.024439916
+      value: 0.025843719
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.62583554
+      value: 1.3363204
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.43760562
+      value: 0.43760777
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.04674618
+      value: 8.224951
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
@@ -81,7 +81,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       propertyPath: m_Name
-      value: gaechnyuKey Variant
+      value: gaechnyuKey Variant Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3451118302482216456, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
@@ -95,25 +95,25 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7203967555420195364}
+      addedObject: {fileID: 7293354540324566010}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2355007062264704036}
+      addedObject: {fileID: 717024100522495165}
   m_SourcePrefab: {fileID: 100100000, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67, type: 3}
---- !u!1 &4840203255273275653 stripped
+--- !u!1 &5015223933302647747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a6d5bdcb82dcd924f9e92c3f8e50ec67,
     type: 3}
-  m_PrefabInstance: {fileID: 5758611777467055188}
+  m_PrefabInstance: {fileID: 5285200978088793746}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &7203967555420195364
+--- !u!54 &7293354540324566010
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4840203255273275653}
+  m_GameObject: {fileID: 5015223933302647747}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -134,13 +134,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2355007062264704036
+--- !u!114 &717024100522495165
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4840203255273275653}
+  m_GameObject: {fileID: 5015223933302647747}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}

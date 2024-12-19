@@ -7,6 +7,7 @@ TagManager:
   - Hand
   - DropCol
   - Repair
+  - molotok
   layers:
   - Default
   - TransparentFX
