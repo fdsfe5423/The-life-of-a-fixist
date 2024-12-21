@@ -9,9 +9,6 @@ public class Menu : MonoBehaviour
 {
     public GameObject glavMenu;
     public GameObject dopInf;
-    public GameObject zag;
-    [SerializeField] TextMeshProUGUI loadPercent;
-    [SerializeField] Animator animator;
 
     public void exit()
     {
@@ -30,23 +27,5 @@ public class Menu : MonoBehaviour
     public void play()
     {
         SceneManager.LoadScene("Zagryzka");
-    }
-
-    IEnumerator Load()
-    {
-        AsyncOperation operation = SceneManager.LoadSceneAsync("GameHome");
-
-        while (!operation.isDone)
-        {
-            if (operation.progress < 0.9f)
-            {
-                loadPercent.text = (operation.progress * 100f).ToString("F0") + "%";
-            }
-            else
-            {
-                loadPercent.text = "100%";
-            }
-        }
-        yield return null;
     }
 }

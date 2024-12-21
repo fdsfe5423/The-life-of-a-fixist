@@ -8,6 +8,7 @@ public class Tool : MonoBehaviour
     public string nameTool;
     public bool iActivate;
     public bool iNeedActivet;
+    public GameObject triggerObj;
 
     private void OnTriggerStay(Collider other)
     {
@@ -15,8 +16,7 @@ public class Tool : MonoBehaviour
         {
            if(iNeedActivet)
             {
-                other.gameObject.GetComponent<Repair>().REPAirActivate();
-                audio.Play();
+                triggerObj = other.gameObject;
             }
         }
     }
@@ -29,5 +29,14 @@ public class Tool : MonoBehaviour
                 other.gameObject.GetComponent<Repair>().REPAir();
             }
         }
+    }
+    public IEnumerator Active()
+    {
+        if(iActivate)
+        {
+            gameObject.GetComponent<Repair>().REPAirActivate();
+            audio.Play();
+        }
+        yield return new WaitForSeconds(0.3f);
     }
 }

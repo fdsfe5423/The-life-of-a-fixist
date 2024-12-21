@@ -5,14 +5,13 @@ using UnityEngine;
 public class gvozd1 : MonoBehaviour
 {
     public GameObject gvozd;
-    public GameObject gvozd2;
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (gameObject.CompareTag("molotok"))
+        if (GetComponent <Repair>().count == GetComponent<Repair>().maxCount)
         {
-            gvozd.SetActive(false);
-            gvozd2.SetActive(!false);
+            gvozd.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
 }

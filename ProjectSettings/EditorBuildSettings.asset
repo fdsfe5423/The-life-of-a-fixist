@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NeedFixScene/Home/PC.unity
     guid: 4d198427791f14648a609122ba902af4
+  - enabled: 1
+    path: Assets/Scenes/Zagryzka.unity
+    guid: ac9298d0e88744643959e08aaa76d914
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e0766dbb8fbd84845a278eb920d0aa6d,
       type: 2}

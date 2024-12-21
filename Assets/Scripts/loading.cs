@@ -15,6 +15,7 @@ public class loading : MonoBehaviour
         animator.enabled = true;
         StartCoroutine(Load());
     }
+
     IEnumerator Load()
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync("GameHome");
@@ -29,6 +30,7 @@ public class loading : MonoBehaviour
             {
                 loadPercent.text = "100%";
             }
+            yield return null;
         }
         yield return null;
     }
