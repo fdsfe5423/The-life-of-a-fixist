@@ -5912,7 +5912,7 @@ MonoBehaviour:
   player: {fileID: 0}
   trigger: 0
   ray: 0
-  iCan: 0
+  iCan: 1
   iCanInvoke: 0
   iCanCan: 0
   distanceToPLayer: 0
@@ -60309,7 +60309,6 @@ MonoBehaviour:
   maxCount: 10
   random: 0
   iReapir: 0
-  voskliclSnak: {fileID: 595181171}
   text: {fileID: 327322132}
   audio: {fileID: 1278815682}
 --- !u!4 &1278815688 stripped
@@ -70398,7 +70397,6 @@ MonoBehaviour:
   maxCount: 10
   random: 0
   iReapir: 0
-  voskliclSnak: {fileID: 2372449}
   text: {fileID: 390751664}
   audio: {fileID: 1446373919}
 --- !u!1 &1452335216
