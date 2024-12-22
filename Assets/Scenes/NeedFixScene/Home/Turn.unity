@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -329,6 +329,21 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5091193872268160860, guid: 46144ae512da54148a866ab7c599747d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8043
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091193872268160860, guid: 46144ae512da54148a866ab7c599747d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8043
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091193872268160860, guid: 46144ae512da54148a866ab7c599747d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8043
+      objectReference: {fileID: 0}
     - target: {fileID: 7437169854239992963, guid: 46144ae512da54148a866ab7c599747d,
         type: 3}
       propertyPath: m_Name
@@ -410,7 +425,7 @@ PrefabInstance:
     - target: {fileID: 5467465324371836430, guid: 22771ce3552bc43409d79a7a8240719a,
         type: 3}
       propertyPath: nameTool
-      value: Ploski
+      value: gaechnyuKey Variant Variant Clone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -889,7 +904,7 @@ PrefabInstance:
     - target: {fileID: 5467465324371836430, guid: 22771ce3552bc43409d79a7a8240719a,
         type: 3}
       propertyPath: nameTool
-      value: Ploski
+      value: gaechnyuKey Variant Variant Clone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1073,7 +1088,7 @@ PrefabInstance:
     - target: {fileID: 5467465324371836430, guid: 22771ce3552bc43409d79a7a8240719a,
         type: 3}
       propertyPath: nameTool
-      value: Ploski
+      value: gaechnyuKey Variant Variant Clone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
