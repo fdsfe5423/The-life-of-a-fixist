@@ -13,17 +13,7 @@ public class Repair : MonoBehaviour
 
     private void Start()
     {
-        random = Random.Range(1, 4);
-        if(random == 1)
-        {
-            count = Random.Range(0, 10);
-        }
-        else
-        {
-            count = maxCount;
-        }
-
-        
+        count = Random.Range(0, 10);        
     }
 
     private void Update()

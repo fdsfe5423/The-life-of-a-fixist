@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
     path: Assets/Scenes/GameHome.unity
     guid: 8fed62e3a9ab21048bc99d71f2193123
   - enabled: 1
@@ -14,6 +17,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Zagryzka.unity
     guid: ac9298d0e88744643959e08aaa76d914
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/KeyBoard.unity
+    guid: ba78d56dce1808b41a6828e866e4a0ed
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/TV.unity
+    guid: 5dfe02fafa8cea44f95d3989d3325a46
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/Turn.unity
+    guid: 5c47d11fbf269ae44955dd76ef7a6840
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/DVDPlayer.unity
+    guid: 777d90a98ab382740803ccb4e7bef180
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/Lampa.unity
+    guid: 3fabe160540bd214182c018e840713ad
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/Kolonki.unity
+    guid: 6d73a584dc8e710469eb40df0b33efc1
+  - enabled: 1
+    path: Assets/Scenes/pobeda.unity
+    guid: d529a90d14522904eb43f52c33f8f79c
+  - enabled: 1
+    path: Assets/Scenes/NeedFixScene/Home/Chasi.unity
+    guid: 5f858e71e4805514a8b987b00403c00a
+  - enabled: 1
+    path: Assets/Scenes/vuSdohli.unity
+    guid: 8c946f373feef2945b23bc53dfaab396
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e0766dbb8fbd84845a278eb920d0aa6d,
       type: 2}

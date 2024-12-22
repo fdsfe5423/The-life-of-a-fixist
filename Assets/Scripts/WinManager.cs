@@ -23,6 +23,6 @@ public class WinManager : MonoBehaviour
     }
     public void Da()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("pobeda");
     }
 }
