@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Repair : MonoBehaviour
 {
@@ -12,16 +13,15 @@ public class Repair : MonoBehaviour
     public AudioSource audio;
 
     private void Start()
-    {
-        count = Random.Range(0, 10);        
+    {       
     }
 
     private void Update()
     {
-        text.text = "Целостность: " + count.ToString() + "/" + maxCount.ToString();
         if(count == maxCount)
         {
             iReapir = true;
+            SceneManager.LoadScene("pobeda");
         }
     }
 

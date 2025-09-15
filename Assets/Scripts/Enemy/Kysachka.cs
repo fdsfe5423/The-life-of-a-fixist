@@ -21,7 +21,7 @@ public class Kysachka : MonoBehaviour
     {
         player = GameObject.Find("PlayerOrig");
         gameObject.GetComponent<CapsuleCollider>().radius = distanceTarget/2;
-        gameObject.GetComponent<CapsuleCollider>().center = new Vector3(0, 0, (distanceTarget + 0.3f) / 2);
+        gameObject.GetComponent<CapsuleCollider>().center = new Vector3(0, 0, distanceTarget / 2);
     }
 
     private void Update()
@@ -37,7 +37,6 @@ public class Kysachka : MonoBehaviour
         }
         if(trigger && ray)
         {
-            agent.stoppingDistance = 3;
             agent.SetDestination(player.transform.position);
         }
         else
@@ -46,7 +45,6 @@ public class Kysachka : MonoBehaviour
             {
                 iCan = true; iCanCan = false;
             }
-            agent.stoppingDistance = 0;
             if(iCan)
             {
                 iCan = false;

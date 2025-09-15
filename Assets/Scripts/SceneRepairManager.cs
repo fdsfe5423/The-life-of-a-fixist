@@ -12,7 +12,6 @@ public class SceneRepairManager : MonoBehaviour
         {
             if (PlayerPrefs.GetInt(name) == 0)
             {
-                SceneManager.LoadScene(name);
             }
         }
     }
